@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-Learn Pro | Modern E-Learning Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container navbar-container">
+      <a href="index.html" class="navbar-logo">
+        <span class="logo-mark">E</span>
+        <span class="logo-text">Learn<span>Pro</span></span>
+      </a>
+      <nav class="navbar-links">
+        <a href="#hero">Home</a>
+        <a href="#courses">Courses</a>
+        <a href="#features">Features</a>
+        <a href="#categories">Categories</a>
+        <a href="#testimonials">Testimonials</a>
+      </nav>
+      <div class="navbar-actions">
+        <a href="signin.html" class="btn btn-outline">Sign In</a>
+        <a href="signup.html" class="btn btn-primary">Sign Up</a>
+      </div>
+      <button class="navbar-toggle" aria-label="Open navigation menu">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="hero-badge">Trusted by 50,000+ learners worldwide</p>
+          <h1>Upgrade your skills with a modern E-Learning platform.</h1>
+          <p class="hero-subtitle">
+            Learn job-ready skills from expert instructors. Interactive courses, real-world projects, and flexible schedules tailored for you.
+          </p>
+          <div class="hero-actions">
+            <a href="signup.html" class="btn btn-primary">Start Learning</a>
+            <a href="#courses" class="btn btn-ghost">Browse Courses</a>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <h3>500+</h3>
+              <p>Curated Courses</p>
+            </div>
+            <div>
+              <h3>120+</h3>
+              <p>Expert Mentors</p>
+            </div>
+            <div>
+              <h3>4.9/5</h3>
+              <p>Learner Rating</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-card hero-card-main">
+            <h3>Learning Streak</h3>
+            <p>You're on a 7-day streak. Keep it up!</p>
+            <div class="hero-progress">
+              <div class="hero-progress-bar"></div>
+            </div>
+          </div>
+          <div class="hero-card hero-card-side">
+            <p>Next Lesson</p>
+            <h4>Design Systems in Figma</h4>
+            <span>Today • 7:00 PM</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Courses -->
+    <section id="courses" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Featured Courses</h2>
+          <p>Handpicked courses to jumpstart your learning journey.</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="card course-card">
+            <span class="badge badge-accent">Popular</span>
+            <h3>Full-Stack Web Development</h3>
+            <p>Master HTML, CSS, JavaScript, and modern frameworks with hands-on projects.</p>
+            <div class="course-meta">
+              <span>32 Lessons</span>
+              <span>40 hrs</span>
+            </div>
+            <button class="btn btn-secondary">View Details</button>
+          </article>
+          <article class="card course-card">
+            <span class="badge">New</span>
+            <h3>Data Analysis with Python</h3>
+            <p>Learn to analyze data, build visualizations, and create predictive models.</p>
+            <div class="course-meta">
+              <span>24 Lessons</span>
+              <span>28 hrs</span>
+            </div>
+            <button class="btn btn-secondary">View Details</button>
+          </article>
+          <article class="card course-card">
+            <span class="badge">Trending</span>
+            <h3>UI/UX Design Essentials</h3>
+            <p>Design intuitive experiences with Figma, user research, and prototyping.</p>
+            <div class="course-meta">
+              <span>18 Lessons</span>
+              <span>22 hrs</span>
+            </div>
+            <button class="btn btn-secondary">View Details</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Platform Features -->
+    <section id="features" class="section section-muted">
+      <div class="container">
+        <div class="section-header">
+          <h2>Platform Features</h2>
+          <p>Everything you need for an engaging, effective learning experience.</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="card feature-card">
+            <div class="icon-circle">
+              <span>⏱</span>
+            </div>
+            <h3>Flexible Learning</h3>
+            <p>Self-paced modules designed to fit your schedule—learn anytime, anywhere.</p>
+          </article>
+          <article class="card feature-card">
+            <div class="icon-circle">
+              <span>🎯</span>
+            </div>
+            <h3>Skill-Based Paths</h3>
+            <p>Structured learning paths that guide you from beginner to advanced.</p>
+          </article>
+          <article class="card feature-card">
+            <div class="icon-circle">
+              <span>⭐</span>
+            </div>
+            <h3>Expert Mentors</h3>
+            <p>Learn directly from industry experts with real-world experience.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Learning Categories -->
+    <section id="categories" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Learning Categories</h2>
+          <p>Explore in-demand topics across technology, business, and creativity.</p>
+        </div>
+        <div class="grid grid-4">
+          <div class="card category-card">
+            <h3>Development</h3>
+            <p>Web, mobile, backend, DevOps, and more.</p>
+          </div>
+          <div class="card category-card">
+            <h3>Data &amp; AI</h3>
+            <p>Data science, machine learning, and analytics.</p>
+          </div>
+          <div class="card category-card">
+            <h3>Design</h3>
+            <p>UI/UX, product design, and branding.</p>
+          </div>
+          <div class="card category-card">
+            <h3>Business</h3>
+            <p>Management, marketing, and entrepreneurship.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section section-muted">
+      <div class="container">
+        <div class="section-header">
+          <h2>What Our Learners Say</h2>
+          <p>Real stories from professionals who transformed their careers.</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="card testimonial-card">
+            <p class="testimonial-text">
+              “E-Learn Pro helped me transition into a full-time developer role in just 6 months.”
+            </p>
+            <h4>Udhaya S</h4>
+            <span>Full-Stack Developer</span>
+          </article>
+          <article class="card testimonial-card">
+            <p class="testimonial-text">
+              “The courses are practical, concise, and taught by mentors who truly care.”
+            </p>
+            <h4>Vijay</h4>
+            <span>Data Analyst</span>
+          </article>
+          <article class="card testimonial-card">
+            <p class="testimonial-text">
+              “I love the clean UI and the progress tracking. It keeps me motivated every day.”
+            </p>
+            <h4>Sourcesys Technologies</h4>
+            <span>UX Designer</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call To Action -->
+    <section id="cta" class="section cta-section">
+      <div class="container cta-container">
+        <div>
+          <h2>Ready to unlock your next opportunity?</h2>
+          <p>Join thousands of learners building their future with E-Learn Pro.</p>
+        </div>
+        <div class="cta-actions">
+          <a href="signup.html" class="btn btn-light">Create Free Account</a>
+          <a href="signin.html" class="btn btn-outline-light">Sign In</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-logo">
+          <span class="logo-mark">E</span>
+          <span class="logo-text">Learn<span>Pro</span></span>
+        </div>
+        <p>Modern, intuitive learning for ambitious professionals.</p>
+      </div>
+      <div class="footer-column">
+        <h4>Platform</h4>
+        <a href="#courses">Courses</a>
+        <a href="#features">Features</a>
+        <a href="#testimonials">Testimonials</a>
+      </div>
+      <div class="footer-column">
+        <h4>Account</h4>
+        <a href="signin.html">Sign In</a>
+        <a href="signup.html">Sign Up</a>
+      </div>
+      <div class="footer-column">
+        <h4>Support</h4>
+        <a href="#">Help Center</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year">2026</span> E-Learn pro platform by Udhaya S. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
+

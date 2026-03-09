@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up | E-Learn Pro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/auth.css" />
+</head>
+<body>
+  <header class="auth-navbar">
+    <a href="index.html" class="auth-logo">
+      <span class="logo-mark">E</span>
+      <span class="logo-text">Learn<span>Pro</span></span>
+    </a>
+    <nav class="auth-nav-links">
+      <a href="index.html">Home</a>
+      <a href="signin.html">Sign In</a>
+    </nav>
+  </header>
+
+  <main class="auth-main">
+    <section class="auth-card">
+      <h1>Create your account</h1>
+      <p class="auth-subtitle">Start your learning journey in minutes.</p>
+      <form class="auth-form" action="dashboard.html" method="get">
+        <div class="form-group">
+          <label for="fullName">Full Name</label>
+          <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="Create a password" required />
+        </div>
+        <div class="form-group">
+          <label for="confirmPassword">Confirm Password</label>
+          <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password" required />
+        </div>
+        <button type="submit" class="btn btn-primary">Create Account</button>
+      </form>
+      <p class="auth-footer-text">
+        Already have an account?
+        <a href="signin.html">Sign in</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="auth-footer">
+    <p>&copy; 2026 E-Learn Pro. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard | E-Learn Pro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/dashboard.css" />
+</head>
+<body>
+  <div class="dashboard-layout">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <a href="index.html" class="sidebar-logo">
+          <span class="logo-mark">E</span>
+          <span class="logo-text">Learn<span>Pro</span></span>
+        </a>
+      </div>
+      <nav class="sidebar-nav">
+        <a href="#welcome" class="active">Dashboard</a>
+        <a href="#my-courses">My Courses</a>
+        <a href="#progress">Progress</a>
+        <a href="#profile">Profile</a>
+        <a href="signin.html" class="logout-link">Logout</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="dashboard-main">
+      <!-- Top Bar -->
+      <header class="topbar">
+        <h1>Dashboard</h1>
+        <div class="topbar-user">
+          <span class="user-name">Hi, Learner</span>
+          <div class="avatar-circle">L</div>
+        </div>
+      </header>
+
+      <section id="welcome" class="dashboard-section welcome-banner">
+        <div class="welcome-text">
+          <h2>Welcome back to E-Learn Pro</h2>
+          <p>Continue where you left off and keep your learning streak alive.</p>
+        </div>
+        <div class="welcome-meta">
+          <div>
+            <h3>7</h3>
+            <p>Day streak</p>
+          </div>
+          <div>
+            <h3>3</h3>
+            <p>Active courses</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- My Courses -->
+      <section id="my-courses" class="dashboard-section">
+        <div class="section-header">
+          <h2>My Courses</h2>
+          <a href="index.html#courses" class="link-small">Browse more</a>
+        </div>
+        <div class="grid grid-3">
+          <article class="card course-card">
+            <h3>Full-Stack Web Development</h3>
+            <p>Build end-to-end web applications with modern tools.</p>
+            <div class="course-progress">
+              <div class="progress-track">
+                <div class="progress-fill" style="width: 65%;"></div>
+              </div>
+              <span>65% complete</span>
+            </div>
+          </article>
+          <article class="card course-card">
+            <h3>Data Analysis with Python</h3>
+            <p>Work with data, build visualizations, and automate reports.</p>
+            <div class="course-progress">
+              <div class="progress-track">
+                <div class="progress-fill" style="width: 40%;"></div>
+              </div>
+              <span>40% complete</span>
+            </div>
+          </article>
+          <article class="card course-card">
+            <h3>UI/UX Design Essentials</h3>
+            <p>Design delightful interfaces and seamless user experiences.</p>
+            <div class="course-progress">
+              <div class="progress-track">
+                <div class="progress-fill" style="width: 80%;"></div>
+              </div>
+              <span>80% complete</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Course Progress Cards -->
+      <section id="progress" class="dashboard-section">
+        <div class="section-header">
+          <h2>Course Progress</h2>
+        </div>
+        <div class="grid grid-2">
+          <article class="card progress-card">
+            <h3>Weekly Learning Time</h3>
+            <p>You studied <strong>8.5 hours</strong> this week.</p>
+            <div class="progress-track tall">
+              <div class="progress-fill" style="width: 70%;"></div>
+            </div>
+          </article>
+          <article class="card progress-card">
+            <h3>Completion Goal</h3>
+            <p>You're on track to complete your goals this month.</p>
+            <div class="progress-track tall">
+              <div class="progress-fill" style="width: 55%;"></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Upcoming Lessons & Notifications -->
+      <section class="dashboard-section dashboard-grid">
+        <div class="card">
+          <h2>Upcoming Lessons</h2>
+          <ul class="list">
+            <li>
+              <div>
+                <h4>Advanced React Patterns</h4>
+                <p>Today • 7:00 PM</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h4>Data Cleaning Techniques</h4>
+                <p>Tomorrow • 6:30 PM</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h4>User Testing Workshop</h4>
+                <p>Friday • 5:00 PM</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="card">
+          <h2>Notifications</h2>
+          <ul class="list">
+            <li>
+              <div>
+                <h4>New course recommendation</h4>
+                <p>“Product Management Essentials” is now available.</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h4>Certificate unlocked</h4>
+                <p>You completed “Git &amp; Version Control Fundamentals”.</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h4>Streak reminder</h4>
+                <p>Stay on track. Complete a lesson today.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Profile Summary -->
+      <section id="profile" class="dashboard-section">
+        <div class="card profile-card">
+          <div class="profile-header">
+            <div class="avatar-circle large">L</div>
+            <div>
+              <h2>Learner Name</h2>
+              <p>learner@example.com</p>
+            </div>
+          </div>
+          <div class="profile-stats">
+            <div>
+              <h3>12</h3>
+              <p>Courses completed</p>
+            </div>
+            <div>
+              <h3>3</h3>
+              <p>In progress</p>
+            </div>
+            <div>
+              <h3>5</h3>
+              <p>Certificates</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
+
+
